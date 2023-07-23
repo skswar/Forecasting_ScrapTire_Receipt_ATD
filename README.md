@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/skswar/Forecasting_ScrapTire_Receipt_ATD/master/img/logo.png" alt="Intro Logo"/>
+<img src="https://raw.githubusercontent.com/skswar/Forecasting_ScrapTire_Receipt_ATD/master/img/banner.png" alt="Intro Logo"/>
 </div>
 
 <h4 align="center">Forecasting the Scrap Tier Receipt Rate at Multiple ATD Centers a Week into the Future using FB-Prophet</h4>
