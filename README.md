@@ -9,7 +9,7 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [About Dataset](#about-dataset)
-* [Methodology](#methodology-and-results)
+* [Methodology](#methodology)
   * [EDA](#eda)
   * [Model Building](#model-building)
 * [Results](#results)
@@ -61,15 +61,17 @@ With all this information gathered finally the model was decided to be build for
 The following image was created by taking randomly 4 cases of location and tire size code to demonstrate the model performance. The image contains data only of the last month for better visibility. **The blue line is the actual with orange line is the predicted data**. As per the image it can be said that the model performed not bad.
 
 <p align="center">
-<img src="https://github.com/skswar/Forecasting_ScrapTire_Receipt_ATD/blob/main/img/fig7.png" width="60%"/>
+<img src="https://github.com/skswar/Forecasting_ScrapTire_Receipt_ATD/blob/main/img/fig6.png" width="60%"/>
 </p>
 
 The following graph visulaizes all the hold-out data together i.e. predictions made for all time serieses together against actual ground trurth data in one single graph. This is to confirm no anomalies present in any cases of location/tire-size. Blue line is the actual where organe is predicted data. As mentioned earlier, it can be said that the model has not done bad in predicting trend over the next week. But the model can definitely do better. 
 
 <p align="center">
-<img src="https://github.com/skswar/Forecasting_ScrapTire_Receipt_ATD/blob/main/img/fig8.png" width="60%"/>
+<img src="https://github.com/skswar/Forecasting_ScrapTire_Receipt_ATD/blob/main/img/fig7.png" width="60%"/>
 </p>
 
 **MAPE** or Mean Absolute Percentage Error was used as an evaluation metric to quantify model performance. MAPE is widely used for time series model evaluation. The issue of infinity was handled in the code. The MAPE result of the model **34%**.
 
+## Conclusion
+In this project, a real-case time series data was analyzed and dependent variable was predicted using FB-Prophet model. FB-Prophet model is a very helpful tool and used in time-series forecasting across industry due to its robust algorithm, and seamless user configuration and speed of processing. Time series analysis and forecasting is very interesting and acts as one of the driving factors for growth in industry for organizations as it helps business make proactive decisions by quantifying the possibilities of the future and not taking decision just by hunch/intuition. This model can definitely be improved by employing external data such as weather or by adding more regressors in the algorithm which can either be dervied (e.g. **variance in retail price in the last 30 days**) or be gathered from ATD (e.g. time of sales, )
 
