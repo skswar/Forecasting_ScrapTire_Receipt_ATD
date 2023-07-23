@@ -14,6 +14,7 @@
   * [Model Building](#model-building)
 * [Results](#results)
 * [Conclusion](#conclusion)
+* [Link to Notebook](#link-to-notebook)
 * [Acknowledgement](#acknowledgement)
 
 ## Introduction
@@ -71,6 +72,10 @@ The following graph visulaizes all the hold-out data together i.e. predictions m
 </p>
 
 **MAPE** or Mean Absolute Percentage Error was used as an evaluation metric to quantify model performance. MAPE is widely used for time series model evaluation. The issue of infinity was handled in the code. The MAPE result of the model **34%**.
+
+## Link to Notebook
+In order to view the notebook with plotly renedered graphs, please visit the following link:
+[Forecasting_ScrapTire_at_ATD.ipynb](https://nbviewer.org/github/skswar/Forecasting_ScrapTire_Receipt_ATD/blob/main/python_scripts/Forecasting_ScrapTire_at_ATD.ipynb)
 
 ## Conclusion
 In this project, we applied time series analysis and forecasting using the FB-Prophet model, an industry-acclaimed tool praised for its robust algorithms, user-friendly configurations, and rapid processing capabilities. Time series analysis and forecasting serve as pivotal mechanisms that drive industrial growth, empowering businesses to make forward-thinking decisions underpinned by quantifiable future projections, rather than mere hunch/intuition.
