@@ -73,7 +73,7 @@ The following graph visulaizes all the hold-out data together i.e. predictions m
 
 **MAPE** or Mean Absolute Percentage Error was used as an evaluation metric to quantify model performance. MAPE is widely used for time series model evaluation. The issue of infinity was handled in the code. The MAPE result of the model **34%**.
 
-## Link to Notebook
+## Link to Notebook 
 In order to view the notebook with plotly rendered graphs, please visit the following link:
 [Forecasting_ScrapTire_at_ATD.ipynb](https://nbviewer.org/github/skswar/Forecasting_ScrapTire_Receipt_ATD/blob/main/python_scripts/Forecasting_ScrapTire_at_ATD.ipynb)
 
